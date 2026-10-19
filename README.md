@@ -30,7 +30,8 @@ This repository contains the site's HTML, CSS, images, and client-side JavaScrip
 
 ## Maintainer
 
-Maintained by GrandDom (Actiari).
+Maintained by jae(3ja_e).
+This is a mirror/reupload of grasscuttingincremental.github.io, formerly created and hosted by GrandDom (Actiari). I did not create the original website.
 
 ## License
 
