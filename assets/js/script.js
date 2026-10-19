@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const sidebar = document.getElementById('sidebar');
     const collapseBtn = document.getElementById('sidebar-collapse-btn');
     const expandBtn = document.getElementById('desktop-expand-btn');
+    const SCRIPT_BASE = document.currentScript.src;
 
     // --- Mobile Menu Logic ---
     if(mobileToggle && sidebar) {
@@ -457,7 +458,7 @@ document.addEventListener('DOMContentLoaded', () => {
         wiki.target = '_blank';
         wiki.rel = 'noopener noreferrer';
         const wikiImg = document.createElement('img');
-        wikiImg.src = 'assets/img/Main.ico';
+        wikiImg.src = new URL('/assets/img/Main.ico', SCRIPT_BASE).href;
         wikiImg.alt = 'Wiki';
         wikiImg.className = 'btn-icon';
         wiki.appendChild(wikiImg);
