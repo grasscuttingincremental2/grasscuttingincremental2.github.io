@@ -4,7 +4,7 @@ A lightweight static site hosting guides and resources for the Roblox game "Gras
 
 ## Overview
 
-This repository contains the site's HTML, CSS, images, and client-side JavaScript. The site is intended to be hosted on GitHub Pages (https://grasscuttingincremental.github.io/).
+This repository contains the site's HTML, CSS, images, and client-side JavaScript. The site is intended to be hosted on GitHub Pages (https://grasscuttingincremental2.github.io/).
 
 ## Quick preview
 
